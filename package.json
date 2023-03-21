@@ -1,0 +1,25 @@
+{
+  "name": "@hexlet/code",
+  "version": "1.0.0",
+  "description": "A command-line utility for generating diffs between two files",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EvgRass/frontend-project-46.git"
+  },
+  "author": "EvgRass",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/EvgRass/frontend-project-46/issues"
+  },
+  "homepage": "https://github.com/EvgRass/frontend-project-46#readme",
+  "bin": {
+    "gendiff": "bin/gendiff.js"
+  },
+  "dependencies": {
+    "commander": "^10.0.0"
+  }
+}
