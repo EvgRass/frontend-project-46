@@ -5,7 +5,7 @@ import _ from 'lodash';
 const genDiff = (filepath1, filepath2) => {
   const getFileData = (filepath) => {
     const fullPath = path.isAbsolute(filepath) ? filepath : path.resolve(process.cwd(), filepath);
-    
+
     if (!fs.existsSync(fullPath)) {
       throw new Error(`File not found: ${fullPath}`);
     }
